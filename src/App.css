@@ -1,0 +1,31 @@
+body {
+  font-family: "Joan", serif;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.todo h1 {
+  color: gray;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 350px;
+  height: 30px;
+  border: 1px solid teal;
+}
+.form button {
+  height: 35px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid teal;
+  margin-left: 15px;
+  cursor: pointer;
+}

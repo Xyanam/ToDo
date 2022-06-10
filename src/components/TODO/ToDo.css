@@ -1,0 +1,36 @@
+.todik {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid teal;
+  margin: 15px 0;
+  padding: 0 15px;
+}
+ion-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+}
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+.btn {
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
